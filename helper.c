@@ -47,6 +47,7 @@ void init(int n, int *arr)
 static int val(int d)
 {
 	// TODO : Add Value against board
+	(void)d; // Suppress unused parameter warning
 	return '\0';
 }
 
@@ -69,5 +70,7 @@ void clear(void)
 int check(int n, int* A)
 {
     // TODO : Checks if a user wins
+    (void)n; // Suppress unused parameter warning
+    (void)A; // Suppress unused parameter warning
     return 1;
 }
